@@ -80,8 +80,8 @@ export default function Home() {
           ].map((feature, index) => (
             <Card key={index} className="p-6 bg-white/5 backdrop-blur-lg border-white/10 hover:bg-white/10 transition-colors">
               <div className="text-purple-300 mb-4">{feature.icon}</div>
-              <h3 className="text-lg font-semibold mb-2">{feature.title}</h3>
-              <p className="text-gray-300">{feature.description}</p>
+              <h3 className="text-lg font-semibold mb-2 text-white">{feature.title}</h3>
+              <p className="text-white/80">{feature.description}</p>
             </Card>
           ))}
         </div>
